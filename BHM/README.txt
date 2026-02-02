@@ -1,19 +1,11 @@
-Bounded History Manager (Java)
+Project:Bounded History Manager (Java)
+Name:Thomas Kiflu
 
-HOW TO RUN:
-1. Open this folder in VS Code
-2. Open terminal in this folder
-3. Compile:
-   javac BoundedHistoryManager.java
-4. Run:
-   java BoundedHistoryManager
+Bounded History Management is a technique used to store a limited number of recent actions or events.
+Instead of keeping all history forever, the system keeps only the most recent N items.
 
-COMMANDS TO TYPE AFTER RUNNING:
-SET_LIMIT 3
-ACTION A
-ACTION B
-ACTION C
-SHOW_HISTORY
-ACTION D
-UNDO
-EXIT
+Bounded History Management is useful when:
+Memory is limited
+Only recent actions matter
+Old data becomes irrelevant
+Performance must stay fast
